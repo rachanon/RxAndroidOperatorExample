@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rxandroid.example">
+
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+    <activity android:name=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+    <activity
+        android:name=".operator.SimpleExampleActivity"
+        />
+    <activity
+        android:name=".operator.MapExampleActivity"
+        />
+    <activity
+        android:name=".operator.ZipExampleActivity"
+        />
+    <activity
+        android:name=".operator.DisposableExampleActivity"/>
+    <activity
+        android:name=".operator.TakeExampleActivity"
+        />
+    <activity
+        android:name=".operator.TimerExampleActivity"
+        />
+    <activity
+        android:name=".operator.IntervalExampleActivity"
+        />
+    <activity
+        android:name=".operator.SingleObserverExampleActivity"
+        />
+    <activity
+        android:name=".operator.CompletableObserverExampleActivity"
+        />
+    <activity
+        android:name=".operator.FlowableExampleActivity"
+        />
+    <activity
+        android:name=".operator.ReduceExampleActivity"
+        />
+    <activity
+        android:name=".operator.BufferExampleActivity"
+        />
+    <activity
+        android:name=".operator.FilterExampleActivity"
+        />
+    <activity
+        android:name=".operator.SkipExampleActivity"
+        />
+    <activity
+        android:name=".operator.ScanExampleActivity"
+        />
+    <activity
+        android:name=".operator.ReplayExampleActivity"
+        />
+    <activity
+        android:name=".operator.ConcatExampleActivity"
+        />
+    <activity
+        android:name=".operator.MergeExampleActivity"
+        />
+    <activity
+        android:name=".operator.DeferExampleActivity"
+        />
+    <activity
+        android:name=".operator.DistinctExampleActivity"
+        />
+    <activity
+        android:name=".operator.LastOperatorExampleActivity"
+        />
+    <activity
+        android:name=".operator.ReplaySubjectExampleActivity"
+        />
+    <activity
+        android:name=".operator.PublishSubjectExampleActivity"
+        />
+    <activity
+        android:name=".operator.BehaviorSubjectExampleActivity"
+        />
+    <activity
+        android:name=".operator.AsyncSubjectExampleActivity"
+        />
+    <activity
+        android:name=".operator.ThrottleLastExampleActivity"
+        />
+    <activity
+        android:name=".operator.DebounceExampleActivity"
+        />
+    <activity
+        android:name=".operator.WindowExampleActivity"
+        />
+    <activity
+        android:name=".operator.ThrottleFirstExampleActivity"
+        />
+    <activity
+        android:name=".operator.DelayExampleActivity"
+        />
+
+  </application>
+
+</manifest>
